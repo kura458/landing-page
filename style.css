@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+header {
+    background-color: #1F2937;
+}
+
+.header-container {
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #F9FAF8;
+}
+
+/* =========================
+   HERO
+   ========================= */
+.hero {
+    background-color: #1F2937;
+    min-height: 430px;
+    padding: 80px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-content {
+    width: 480px;
+    max-width: 45%;
+}
+
+.hero-content h2 {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    margin: 16px 0 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.hero-image {
+    width: 480px;
+    max-width: 45%;
+    height: 230px;
+    background-color: #6B7280;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================
+   BUTTON
+   ========================= */
+button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* =========================
+   INFORMATION
+   ========================= */
+.information {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.information > h2 {
+    margin: 0 0 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-container {
+    width: 1000px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.information-item {
+    width: 160px;
+}
+
+.information-item img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+}
+
+.information-item p {
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #1F2937;
+}
+
+/* =========================
+   QUOTE
+   ========================= */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote blockquote {
+    width: 850px;
+    max-width: 90%;
+    margin: 0 auto;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.25;
+}
+
+.quote-author {
+    width: 850px;
+    max-width: 90%;
+    margin: 20px auto 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+/* =========================
+   CALL TO ACTION
+   ========================= */
+.call-to-action {
+    width: 1000px;
+    max-width: 90%;
+    margin: 80px auto;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.cta-content h2 {
+    margin: 0 0 6px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-content p {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    flex-shrink: 0;
+}
+
+.call-to-action button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+    background-color: #1F2937;
+    padding: 36px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 16px;
+}
